@@ -5,6 +5,7 @@ class Cpetscrape1Spider(scrapy.Spider):
     name = 'cpetscrape1'
     # allowed_domains = ['choicepet.com']
     # start_urls = ['http://choicepet.com/']
+    
 
     def start_requests(self):
         url = r'https://choicepet.com/pages/locations-1'
